@@ -1,0 +1,7 @@
+.tabcontent {
+    display: none;
+}
+
+.tabcontent:target {
+    display: initial;
+}
