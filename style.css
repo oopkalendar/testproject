@@ -5,3 +5,13 @@
 .tabcontent:target {
     display: initial;
 }
+
+.menu a {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    background: #ddd;
+}
