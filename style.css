@@ -15,3 +15,27 @@
 .menu a:hover{
     background: #ddd;
 }
+
+/* --------------------------- */
+
+.window {
+  display: none;
+  background: yellow;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  /*border-color: black;*/
+}
+
+/* Opened lightbox */
+.window:target {
+/*  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
